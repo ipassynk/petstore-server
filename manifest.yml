@@ -1,0 +1,10 @@
+applications:
+- path: ./target/petstore-0.0.1-SNAPSHOT.jar
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: julia-petstore
+  host: julia-petstore
+  disk_quota: 1024M
+  services:
+  - julia-petstore-cloudantNoSQLDB

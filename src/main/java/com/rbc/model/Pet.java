@@ -64,7 +64,7 @@ public class Pet {
         this.photoUrls = photoUrls;
     }
 
-    Pet() {
+    public Pet() {
     }
 
     public Pet(String name, Integer id, Set<String> photoUrls, Set<Tag> tags, Pet.Status status) {
